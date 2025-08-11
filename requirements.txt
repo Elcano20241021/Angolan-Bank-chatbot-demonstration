@@ -1,0 +1,35 @@
+# App / UI
+streamlit>=1.36.0
+Pillow>=10.3.0
+python-dotenv>=1.0.1
+
+# LangChain + RAG
+langchain==0.2.12
+langchain-community==0.2.11
+langchain-chroma==0.1.1
+langchain-huggingface==0.0.3
+chromadb==0.5.3
+
+# Embeddings
+sentence-transformers==2.7.0
+huggingface_hub>=0.23.0
+# (Opcional, mas recomendado para evitar falhas de instalação)
+torch>=2.1.0
+
+# LLMs
+openai>=1.35.0
+tiktoken>=0.7.0
+
+# PDFs
+pypdf>=4.2.0
+
+# Normalização / utilidades
+unidecode>=1.3.8
+requests>=2.31.0
+
+# Web scraping (usado no notebook)
+beautifulsoup4>=4.12.3
+lxml>=5.2.1
+
+# (Opcional) SpaCy só se realmente precisares — atualmente não é usado no app.py
+# spacy>=3.7.0
