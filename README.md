@@ -11,15 +11,11 @@ RAG overcomes this limitation by retrieving verified information from official d
 
 This project combines:
 
-LangChain for RAG orchestration
-
-OpenAI GPT-3.5 Turbo for response generation
-
-Hugging Face sentence transformers for embeddings
-
-Chroma for vector storage
-
-Streamlit for the chatbot interface
+- LangChain for RAG orchestration;
+- OpenAI GPT-3.5 Turbo for response generation;
+- Hugging Face sentence transformers for embeddings;
+- Chroma for vector storage;
+- Streamlit for the chatbot interface
 
 Users can upload PDF, TXT, DOCX, or CSV files, and the chatbot will retrieve the most relevant chunks before answering.
 
