@@ -1,9 +1,9 @@
 # 🏦 Sol AI Virtual Assistant
-**RAG chatbot powered by LangChain, OpenAI, and Hugging Face 🤖**
+**RAG chatbot powered by LangChain, OpenAI, and Hugging Face**
 
 Banco Sol AI Virtual Assistant is an intelligent customer support chatbot built with Retrieval-Augmented Generation (RAG) and LLM integration, designed to provide accurate, contextual, and cost-efficient answers about Banco Sol's products and services.
 
-**| ⚠️ This project is for demonstration purposes only and is not connected to Banco Sol’s internal systems.**
+**| ⚠️ Disclaimer: This project is for demonstration purposes only and is not connected to Banco Sol’s internal systems.**
 
 ## Project Overview
 Large Language Models (LLMs) are powerful but rely on static training data, which can make them outdated or inaccurate.
@@ -49,13 +49,14 @@ Some documents are fetched directly from Banco Sol’s public website and conver
 - requirements.txt – Python dependencies for local setup.
 
 📂 Project Structure
-📦 sol-assistant
+📦 banco-sol-assistant
  ┣ 📂 data_pdfs/               # Official bank documents & brochures
  ┣ 📂 chroma_db_bancosol/      # Persistent Chroma vector store
  ┣ mascote_banco_sol.png       # Chatbot mascot/logo
  ┣ app.py                      # Main Streamlit application
  ┣ requirements.txt            # Project dependencies
- ┗ README.md                   # Documentation
+ ┣ Webscrap_Banco_Sol.ipynb    # Notebook for web scraping Banco Sol site
+ ┗ README.md  
  
 ## License
 This project is for educational and demonstration purposes only. Banco Sol branding is property of Banco Sol.
