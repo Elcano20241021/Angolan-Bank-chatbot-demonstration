@@ -3,7 +3,7 @@
 
 Banco Sol AI Virtual Assistant is an intelligent customer support chatbot built with Retrieval-Augmented Generation (RAG) and LLM integration, designed to provide accurate, contextual, and cost-efficient answers about Banco Sol's products and services.
 
-| ⚠️ This project is for demonstration purposes only and is not connected to Banco Sol’s internal systems.
+**| ⚠️ This project is for demonstration purposes only and is not connected to Banco Sol’s internal systems.**
 
 ## Project Overview
 Large Language Models (LLMs) are powerful but rely on static training data, which can make them outdated or inaccurate.
