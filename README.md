@@ -56,7 +56,7 @@ Some documents are fetched directly from Banco Sol’s public website and conver
  ┣ app.py                      # Main Streamlit application\
  ┣ requirements.txt            # Project dependencies\
  ┣ Webscrap_Banco_Sol.ipynb    # Notebook for web scraping Banco Sol site\
- ┗ README.md  \
+ ┗ README.md  
  
 ## License
 This project is for educational and demonstration purposes only. Banco Sol branding is property of Banco Sol.
