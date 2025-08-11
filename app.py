@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 import re
 import spacy
 import unicodedata
@@ -39,7 +40,9 @@ PERSIST_DIRECTORY = "./chroma_db_bancosol"
 MODEL_NAME = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 CHAT_HISTORY_LIMIT = 10 # Define o limite para o histórico de convers
 TOKEN_LIMIT_CONTEXT = 2500
-PDF_DATA_DIRECTORY = "C:/Users/Elcano/Documents/AI4AFRICA CONSULTING/PROJECT_2_Chatbot_Voice_to_Text/Model/Chatbot Banco Sol/data_pdfs"
+PDF_DATA_DIRECTORY = Path(
+    os.getenv("PDF_DATA_DIRECTORY", r"C:\path\to\your\data_pdfs")
+).resolve()
 encoding = tiktoken.get_encoding("cl100k_base")
 
 #====================================================== Sinónimos (normalização leve da query) ====================================================================
