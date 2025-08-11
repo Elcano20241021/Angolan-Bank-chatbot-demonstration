@@ -49,14 +49,14 @@ Some documents are fetched directly from Banco Sol’s public website and conver
 - requirements.txt – Python dependencies for local setup.
 
 📂 Project Structure
-📦 banco-sol-assistant
- ┣ 📂 data_pdfs/               # Official bank documents & brochures
- ┣ 📂 chroma_db_bancosol/      # Persistent Chroma vector store
- ┣ mascote_banco_sol.png       # Chatbot mascot/logo
- ┣ app.py                      # Main Streamlit application
- ┣ requirements.txt            # Project dependencies
- ┣ Webscrap_Banco_Sol.ipynb    # Notebook for web scraping Banco Sol site
- ┗ README.md  
+📦 banco-sol-assistant\
+ ┣ 📂 data_pdfs/               # Official bank documents & brochures\
+ ┣ 📂 chroma_db_bancosol/      # Persistent Chroma vector store\
+ ┣ mascote_banco_sol.png       # Chatbot mascot/logo\
+ ┣ app.py                      # Main Streamlit application\
+ ┣ requirements.txt            # Project dependencies\
+ ┣ Webscrap_Banco_Sol.ipynb    # Notebook for web scraping Banco Sol site\
+ ┗ README.md  \
  
 ## License
 This project is for educational and demonstration purposes only. Banco Sol branding is property of Banco Sol.
