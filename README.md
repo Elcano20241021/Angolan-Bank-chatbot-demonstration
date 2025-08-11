@@ -1,8 +1,5 @@
 # 🏦 Sol AI Virtual Assistant
 **RAG chatbot powered by LangChain, OpenAI, and Hugging Face 🤖**
-<img width="1240" height="1840" alt="RAG_architecture" src="https://github.com/user-attachments/assets/d93090ce-c1ae-4098-9aa8-d6e6812c367d" />
-<img width="540" height="238" alt="web_scraping" src="https://github.com/user-attachments/assets/1e6aba0b-5580-4b40-84fc-0e5e5cb68434" />
-
 
 Banco Sol AI Virtual Assistant is an intelligent customer support chatbot built with Retrieval-Augmented Generation (RAG) and LLM integration, designed to provide accurate, contextual, and cost-efficient answers about Banco Sol's products and services.
 
